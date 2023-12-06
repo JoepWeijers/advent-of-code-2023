@@ -80,7 +80,7 @@ def strings_to_ints(list):
     return [int(x) for x in list]
 
 map_index = -1
-f = open('input.txt', 'r')
+f = open('input5.txt', 'r')
 for line in f.read().splitlines():
     if line.startswith('seeds'):
         pairs_of_seeds = strings_to_ints(line.split(' ')[1:])
